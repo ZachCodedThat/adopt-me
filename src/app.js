@@ -28,7 +28,7 @@ const App = () => {
       <h1>Adopt Me!</h1>
       <Pet name="Marty" animal="Dog" breed="Pitbull" />
       <Pet name="Jazz" animal="Cat" breed="Mixed" />
-      <Pet name="Toot" animal="Bird" breed="Canary" />
+      <Pet name="Hoot" animal="Bird" breed="Canary" />
     </div>
   );
 };
