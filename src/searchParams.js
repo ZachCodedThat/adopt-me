@@ -9,6 +9,12 @@ const SearchParams = () => {
   const [breed, BreedDropdown] = useDropdown("Breed", "animal", breeds);
 
   //   This is a react hook and they all start with "use"
+  // "Const SearchParamas" takes these 4 consts and creates 3 seperate
+  // input fields one for text and 2 dropdown menues
+  // a custom hook useDropdown "see useDropdown.js" is created to fuse multiple search
+  // paramerters into one generic component that fills itslef in according
+  // to what information is called and then can be used to push to the webpage.
+  // see "Animal and Breed Dropdown"
 
   return (
     <div className="search-params">
