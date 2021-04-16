@@ -3,6 +3,7 @@ import React, { useState } from "react";
 const useDropdown = (label, defaultState, options) => {
   const [state, setState] = useState(defaultState);
   const id = `use-dropdown-${label.replace(" ", "").toLowerCase()}`;
+
   const Dropdown = () => (
     <label htmlFor={id}>
       {label}
@@ -14,6 +15,7 @@ const useDropdown = (label, defaultState, options) => {
         disabled={!options.length}
       >
         <option>All</option>
+
         {options.map((item) => (
           <option key={item} value={item}>
             {item}
@@ -26,3 +28,5 @@ const useDropdown = (label, defaultState, options) => {
 };
 
 export default useDropdown;
+
+// same as searchParams makes this component usable to the whole project.

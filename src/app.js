@@ -12,3 +12,6 @@ const App = () => {
 };
 
 render(<App />, document.getElementById("root"));
+
+// This is the highest level of this program where the const App is rendered to the index.html using document.getElementById("root") which looks for the
+// Id of root within the index.html document
