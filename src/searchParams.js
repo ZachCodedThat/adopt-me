@@ -26,7 +26,7 @@ const SearchParams = () => {
             id="location"
             value={location}
             placeholder="location"
-            onChange={(e) => setLocation(e.target.value)}
+            onChange={(e) => setLocation(e.target.value)} //where is .target pointing? possibly at location because of where it was called ?
           />
         </label>
         <AnimalDropdown />
@@ -38,3 +38,6 @@ const SearchParams = () => {
 };
 
 export default SearchParams;
+
+// This ensures the project can call upon this component at need using
+// "SearchParams"
