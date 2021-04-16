@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@frontendmasters/pet": "^1.0.3",
     "eslint": "^7.24.0",
     "eslint-config-prettier": "^8.2.0",
     "gh": "^2.8.9",
@@ -16,6 +17,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "parcel-bundler": "^1.12.5"
   },
   "scripts": {
